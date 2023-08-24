@@ -5,6 +5,9 @@ class ResponsivePage extends StatelessWidget {
   final Widget tabletScaffold;
   final Widget desktopScaffold;
 
+
+  // source :  https://www.youtube.com/watch?v=9bo1V9STW2c&t=113s
+
   const ResponsivePage(
       {super.key, required this.mobileScaffold, required this.tabletScaffold, required this.desktopScaffold});
 
@@ -21,4 +24,7 @@ class ResponsivePage extends StatelessWidget {
           }
         });
   }
+
+
+
 }
